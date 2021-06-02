@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 //@Mapper
 public interface DepartmentMapper {
+        //第二次修改
 
 
         @Select("select * from department where id=#{id}")
